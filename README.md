@@ -12,7 +12,7 @@ Everything is already shipped-in : testing (with PHPUnit), server (with Heroku),
 
 # Build and deploy for production
 
-Zip everything in the main directory except `.gitignore` and `.gitattributes` files and `vendor` directory.
+Perform a merge request to `master` branch.
 
 # Maintenance
 
