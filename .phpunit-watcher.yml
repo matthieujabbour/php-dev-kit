@@ -1,0 +1,7 @@
+watch:
+  directories:
+    - ../../../src
+  fileMask: '*.php'
+phpunit:
+  binaryPath: ../../bin/phpunit
+  arguments: '--coverage-html ../../../coverage --test-suffix .test.php ../../../src'

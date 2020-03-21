@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="../../autoload.php"
+  backupGlobals="true"
+  backupStaticAttributes="true"
+  colors="true"
+  verbose="false"
+  convertErrorsToExceptions="true"
+  convertNoticesToExceptions="true"
+  convertWarningsToExceptions="true"
+  processIsolation="false"
+  stopOnFailure="false"
+  cacheResult="false">
+  <filter>
+    <whitelist>
+      <directory suffix=".php">../../../src/</directory>
+      <exclude>
+        <directory suffix=".test.php">../../../src/</directory>
+        <directory suffix=".php">../../../src/conf/</directory>
+      </exclude>
+    </whitelist>
+  </filter>
+  <php>
+   <const name="ENV" value="TEST"/>
+  </php>
+</phpunit>

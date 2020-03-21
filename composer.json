@@ -1,0 +1,28 @@
+{
+  "name": "matthieujabbour/php-dev-kit",
+  "version": "1.0.0",
+  "description": "Everything you need to develop back-end PHP projects with maximum productivity.",
+  "keywords": [
+    "backend",
+    "php",
+    "development",
+    "kit",
+    "starter",
+    "project"
+  ],
+  "prefer-stable": true,
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matthieu Jabbour",
+      "email": "matthieu.jabbour@gmail.com",
+      "homepage": "https://github.com/matthieujabbour"
+    }
+  ],
+  "require": {
+    "php": "^7.3",
+    "phpunit/phpunit": "^8",
+    "spatie/phpunit-watcher": "^1.8"
+  }
+}
